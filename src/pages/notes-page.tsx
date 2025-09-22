@@ -1,6 +1,4 @@
 import { Card, CardContent } from "@/components/ui/card";
-import NoteCard from "@/components/notes/note-card";
-import NoteListItem from "@/components/lists/list-item/note-list-item";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -21,6 +19,8 @@ import {
 } from "lucide-react";
 import type React from "react";
 import { useState } from "react";
+import NoteListItem from "@/components/lists/list-item/note-list.item";
+import NoteCard from "@/components/cards/note-card";
 
 // Mock data for notes
 const mockNotes = [
