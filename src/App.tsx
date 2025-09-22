@@ -5,7 +5,6 @@ import LoginPage from "./pages/login-page";
 import SignUpPage from "./pages/sign-up-page";
 import AppLayout from "./layouts/app-layout";
 import NotesPage from "./pages/notes-page";
-import UserProfilePage from "./pages/user-profile-page";
 
 function App() {
   return (
@@ -24,7 +23,7 @@ function App() {
           <Route path="notes" element={<NotesPage />} />
           <Route path="upload" element={<div>upload works</div>} />
           <Route path="quizzes" element={<div>Quizzes works</div>} />
-          <Route path="profile" element={<UserProfilePage />} />
+          <Route path="profile" element={<div>Profile works</div>} />
         </Route>
       </Routes>
       {/* <Route index element={<div>a</div>} /> */}
